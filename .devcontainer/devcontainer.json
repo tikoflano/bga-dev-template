@@ -21,7 +21,7 @@
 			]
 		}
 	},
-	"postStartCommand": "node .devcontainer/generate-sftp-config.js",
+	"postStartCommand": "bash .devcontainer/postStartCommand.sh",
 	"mounts": [
 		"type=bind,source=${localEnv:HOME}/.ssh,target=/home/vscode/.ssh,readonly"
 	]
