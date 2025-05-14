@@ -13,7 +13,7 @@ const config = {
   useTempFile: false,
   openSsh: false,
   uploadOnSave: true,
-  ignore: [".vscode", ".devcontainer", "node_moduless", ".git", ".DS_Store", "_ide_helper.php"],
+  ignore: [".vscode", ".devcontainer", "node_moduless", ".git", ".DS_Store"],
   syncOption: {
     skipCreate: false,
     delete: true,
