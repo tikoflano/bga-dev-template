@@ -8,7 +8,7 @@
 ## Setup
 
 1. Clone this repo.
-1. Make a copy of `.devcontainer/devcontainer.env.example`, name it `.devcontainer/devcontainer.env.example`
+1. Make a copy of `.devcontainer/devcontainer.env.example`, name it `.devcontainer/devcontainer.env`
    and populate it with the required data. The values are case-sensitive, so take a close look at the example.
 1. Start Docker and run the VSCode command `Dev Containers: Reopen in Container`.
 1. Run the VSCode command `SFTP: Download Project`.
